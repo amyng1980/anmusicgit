@@ -9,14 +9,53 @@
 <body>
 
 <?php include 'navigation.php';?>
+<div id="content">
+<div id="noteValue">
+        <h1>Note Values</h1>
+        <h2>Whole Note</h2>
+        <ul>
+        	<li>There are 4 beats for a whole note and a whole rest.</li>
+        	<li>We count 1, 2, 3, 4.</li>
+        </ul>
+        <img src="resource_music/whole.jpg"></br>
+        
 
-<div class="content">
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+        <h2>Half Note</h2>
+        <ul>
+        	<li>There 2 beats for a half note and a half rest.</li>
+        	<li>We count 1, 2.</li>
+        </ul>
+        <img src="resource_music/half.jpg"></br>
+
+
+        <h2>Quarter Note</h2>        
+        <ul>
+        	<li>There is 1 beat for a quarter note and a quarter rest.</li>
+        	<li>We count 1.</li>
+        </ul>
+        <img src="resource_music/quarter.jpg"></br>
 </div>
+
+<div id="barlineMeasure">
+        <h1>Barline & Measure</h1>
+		<h2>Barline is to what???</h2>
+		<h2>Measure:... </h2>
+		<img src="#"></br>
+</div>
+
+<div id="clapHands">
+        <h1>Clap Your Hands With Amy--embedded vidoe</h1>
+                <img src="#"></br>
+                <a href="#">Download the example here</a>
+</div>
+</div>
+
+
+
+</body>
 <div class="footerholder">
 <div class="footer">
 <?php include 'footer.php';?>
 </div>
 </div>
-</body>
 </html>

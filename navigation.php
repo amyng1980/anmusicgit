@@ -6,6 +6,7 @@
 </head>
 <body>
 <div class="headerNavigation">
+	<a href="index.php">Home</a> |
 	<a href="beat.php">Count the beat</a> | 
 	<a href="notes.php">Musical Notes</a> | 
 	<a href="scale.php">Scales and Arpeggio</a> | 
