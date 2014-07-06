@@ -1,38 +1,60 @@
-.headerNavigation{
+.navigationHolder{
 	background-color:#6F8CC8;
+    height:20px;
     font-size: 18px;
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-right: 20px;
+}
+
+.alignLeft{
+    float: left;
+    color: black;
+}
+
+.alignRight{
+    float: right;
+    color: black;
+
+}
+
+.alignLeft a{
+    text-decoration: none;
+    color: black;
+}
+
+.alignLeft a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 body {
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 17px;
+    width: 100%;
 }
 
-.headerNavigation a{
-	text-decoration: none;
-	color: black;
+.noteValue{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 }
 
-.headerNavigation a:hover{
-	text-decoration: none;
-	color: white;
-}
 
 .content{
 	padding-top: 10px;
 }
 
 #content h1{
-    font-size: 16px;
     padding-left: 10px;
+    font-size: 27px;
+    color: #002A67;
 }
 
 #content h2{
-    font-size: 14px;
+    font-size: 25px;
     padding-left: 10px;
 }
 
