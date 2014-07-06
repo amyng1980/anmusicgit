@@ -69,6 +69,10 @@ body {
     padding-bottom: 20px;
 }
 
+#downloadHw{
+    padding-left: 20px;
+}
+
 .footerholder {
     bottom: 0;
     position: fixed;
@@ -81,3 +85,6 @@ body {
 .footer {
 }
 
+.footer1 {
+    text-align: center;
+}

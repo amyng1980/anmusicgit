@@ -9,8 +9,9 @@
 <body>
 
 <?php include 'navigation.php';?>
-<h1>Note Values:</h1>
+
 <div id="content">
+        <h1>Note Values:</h1>
         <div class="noteValue">
         <h2>Whole Note</h2>
         <ul>
@@ -34,7 +35,6 @@
         <img src="resource_music/quarter.jpg">
         </div>
 
-<div></br></br></br></div>
 <div id="barlineMeasure">
         <h1>Barline & Measure:</h1>
         <ul>
@@ -44,7 +44,7 @@
         </ul>
         <img src="resource_music/barline.jpg"></br>
 </div>
-<div></br></br></br></div>
+
 
 <div id="simpleTimeSignature">
         <h1>Simple Time Signature:</h1>
@@ -52,23 +52,30 @@
         <img src="resource_music/34.jpg"></br>
         <img src="resource_music/44.jpg"></br>
 </div>
+
+<div id="downloadHw">
         <a href="#">Download Homework</a>
+</div>
 
 <div></br></br></br></div>
 
 <div id="clapHands">
         <h1>Clap Your Hands With Amy--embedded video</h1>
                 <img src="#"></br>
-                <a href="#">Download the example here</a>
+                <div id="downloadHw">
+                <a href="#">Download Example</a>
+                </div>
 </div>
 </div>
 
-
-
+<div class="footer1">
+<?php
+echo "Copyright 2010-" .date("Y"). " by Amy Ng. All Rights Reserved.";
+?>
+</div>
 </body>
-<div class="footerholder">
-<div class="footer">
-<?php include 'footer.php';?>
-</div>
+
+
+
 </div>
 </html>

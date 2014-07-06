@@ -10,9 +10,9 @@
 		<a href="index.php">Home</a> |
 		<a href="beat.php">Count the beat</a> | 
 		<a href="notes.php">Musical Notes</a> | 
-		<a href="scale.php">Scales and Arpeggio</a> | 
+		<a href="video.php">Video Tutorials</a> | 
 		<a href="download.php">Download</a> |
-		<a href="#">Contact Us</a>
+		<a href="contact.php">Contact Us</a>
 	</div>
 
 	<div class="alignRight">
