@@ -13,24 +13,18 @@
 <div id="manuscript">
         <h1>Blank Manuscript</h1>
         <ul>
-        	<li><a href="resource_music/KidManuscript.pdf" target="_blank">For Kids-Wider Spaces</a></li> </br>
-        	<li><a href="resource_music/AdultManuscript.pdf" target="_blank">For 10+ Years Old Kids-Narrow Spaces</a></li> </br>
+        	<li><a href="resource_music/kidManuscript.pdf" target="_blank">For Kids-Wider Spaces</a></li> </br>
+        	<li><a href="resource_music/adultManuscript.pdf" target="_blank">For 10+ Years Old Kids-Narrow Spaces</a></li> </br>
     	</ul>
 </div>
 
 <div id="musicLetter">
         <h1>Musical Letters-Let's Play The Piano Now</h1>
         <ul>
-        	<li><a href="resource_music/maryLittleLamb.pdf" target="_blank">Mary Had A Littel Lamb-Right Hand</a></li> </br>
-        	<li><a href="resource_music/littleDonut.pdf" target="_blank">Little Hamster-Left Hand</a></li> </br>
-        	<li><a href="resource_music/oldMacDonald.pdf" target="_blank">Old MacDonald-Hands Together</a></li> </br>
-    	</ul>
-</div>
-
-<div id="writeClef">
-        <h1>Learn How To Draw The Clefs For Piano</h1>
-        <ul>
-        	<li><a href="resource_music/clef.pdf" target="_blank">Learn How To Write Clefs</a></li> </br>
+        	<li><a href="resource_music/maryHadALittleLamb.jpg" target="_blank">Mary Had A Littel Lamb-Right Hand</a></li> </br>
+        	<li><a href="resource_music/littleBee_RH.jpg" target="_blank">Little Bee In The Garden-Right Hand</a></li> </br>
+            <li><a href="resource_music/littleBee_LH.jpg" target="_blank">Little Bee In The Garden-Left Hand</a></li> </br>
+            <li><a href="resource_music/littleDyno_BothHands.jpg" target="_blank">Dyno My Pet Dinosaur-Both Hands</a></li> </br>
     	</ul>
 </div>
 

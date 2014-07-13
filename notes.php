@@ -29,9 +29,13 @@
 			<img src="resource_music/clef.jpg"> 
 	</div>
 
+	<div id="downloadHw">
+        <a href="resource_music/kidManuscript.pdf" target="_blank">Download a blank manuscript and practice writing the clefs</a></br>
+        <a href="resource_music/traceClef.jpg" target="_blank">For young kids: Download the file and trace the clefs</a></br>
+	</div>
 <div id="middleC">
         <h1>Reading Notes:</h1>
-		<img src="resource_music/trebleNotes.jpg"> 
+		<img src="resource_music/keyBoardStaffNotes.jpg"> 
 </div>
 
 <div id="downloadHw">
