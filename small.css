@@ -1,7 +1,6 @@
-@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+@media only screen and (max-device-width: 600px){
 
-img.ri { max-width: 50%; }
-}
+
 
 body {
     font-family: Helvetica;
@@ -52,5 +51,10 @@ body {
 #alignLeft ul li:last-child a{
     -webkit-border-bottom-left-radius: 8px;
     -webkit-border-bottom-right-radius: 8px;
+}
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+img.ri { max-width: 50%; }
 }
 }
