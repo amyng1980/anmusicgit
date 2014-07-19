@@ -1,27 +1,24 @@
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-device-width: 600px){
 
-.navigationHolder{
+#navi{
     padding-right: 20px;
 
 }
 
 
-
-
-
-.alignRight{
+#alignRight{
     float: right;
     color: black;
     padding-right: 20px;
 }
 
-.alignLeft ul{
+#alignLeft ul{
     list-style: none;
     margin: 10px;
     padding: 0;
 }
 
-.alignLeft ul li a{
+#alignLeft ul li a{
     background-color: #FFFFFF;
     border: 1px solid #999999;
     color: #222222;
@@ -33,17 +30,17 @@
     text-decoration: none;
    }
 
-.alignLeft a:hover{
+#alignLeft a:hover{
     text-decoration: none;
     color: white;
 }
 
-.alignLeft ul li:first-child a{
+#alignLeft ul li:first-child a{
     -webkit-border-top-left-radius: 8px;
     -webkit-border-top-right-radius: 8px;
 }
 
-.alignLeft ul li:last-child a{
+#alignLeft ul li:last-child a{
     -webkit-border-bottom-left-radius: 8px;
     -webkit-border-bottom-right-radius: 8px;
 }
