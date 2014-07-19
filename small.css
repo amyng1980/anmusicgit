@@ -1,6 +1,4 @@
-@media only screen and (max-device-width: 600px){
-
-
+@media only screen and (max-device-width: 650px){
 
 body {
     font-family: Helvetica;
@@ -55,6 +53,6 @@ body {
 }
 
 @media only screen and (max-device-width: 600px) and (orientation: portrait) {
-img.ri { max-width: 50%; }
+img.ri { max-width: 70%; }
 }
 }
