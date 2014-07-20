@@ -43,15 +43,15 @@
                 <li>Spaces between the bar lines are called the "Measure".</li>
                 <li>The double bar lines indicates the end of the music.</li>
         </ul>
-        <img src="resource_music/barline.jpg"></br>
+        <img src="resource_music/barline.jpg" class="ri"></br>
 </div>
 
 
 <div id="simpleTimeSignature">
         <h1>Simple Time Signature:</h1>
-        <img src="resource_music/24.jpg"></br>
-        <img src="resource_music/34.jpg"></br>
-        <img src="resource_music/44.jpg"></br>
+        <img src="resource_music/24.jpg" class="ri"></br>
+        <img src="resource_music/34.jpg" class="ri"></br>
+        <img src="resource_music/44.jpg" class="ri"></br>
 </div>
 
 <div id="downloadHw">

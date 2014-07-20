@@ -12,7 +12,7 @@
 <div id="content">
 	<div id="keyboardChart">
         <h1>Keyboard Chart:</h1>
-        <img src="resource_music/pianoKeys.jpg"></br>
+        <img src="resource_music/pianoKeys.jpg" class="ri"></br>
         <h1>Let's Play Music Letters On The Piano</h1>
         video here!!!
 	</div>
@@ -35,7 +35,7 @@
 	</div>
 <div id="middleC">
         <h1>Reading Notes:</h1>
-		<img src="resource_music/keyBoardStaffNotes.jpg"> 
+		<img src="resource_music/keyBoardStaffNotes.jpg" class="ri"> 
 </div>
 
 <div id="downloadHw">
