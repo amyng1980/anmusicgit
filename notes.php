@@ -2,7 +2,10 @@
 <html>
 
 <head>
-<link type="text/css" rel="stylesheet" href="music.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="only screen and (max-device-width: 600px)" href="small.css">
+
+	<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
 
 </head>
 
@@ -32,7 +35,7 @@
 
 	<div class="clef">
 		<h1>Clefs:</h1>        	
-			<img src="resource_music/clef.jpg"> 
+			<img src="resource_music/clef.jpg" class="ri"> 
 	</div>
 
 	<div id="downloadHw">

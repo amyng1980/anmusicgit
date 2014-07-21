@@ -3,7 +3,8 @@
 <head>
 	<title>Navigation</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="only screen and (max-device-width: 600px)" href="small.css">
+	<link rel="stylesheet" media="all and (orientation:portrait)" href="small.css">
+	<link rel="stylesheet" media="all and (orientation:landscape)" href="small_l.css">
 	<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
 	<div id="alignLeft">
 		<ul id="menu">
 		<li><a href="index.php">*Home  </a> </li>
-		<li><a href="beat.php">*Count the beat </a> </li>
+		<li><a href="beat.php">*Count the beats </a> </li>
 		<li><a href="notes.php">*Musical Notes  </a> </li>
 		<li><a href="video.php">*Video Tutorials  </a> </li>
 		<li><a href="download.php">*Download  </a> </li>
