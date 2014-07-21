@@ -11,14 +11,36 @@
 <body>
 <?php include 'navigation.php';?>
 <div style="clear: both;"></div>
-<div class="content">
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<div id="content">
+<h1>Your First Music Lesson:</h1>
+<h3>A. Your Fingers:</h3>
+<p>
+ * Your thumbs are always the 1st finger. </br>
+ * Your index fingers are your 2nd finger. </br>
 <img src="resource_music/LelfHandRightHand.jpg" class="ri"></br>
-</div>
+ * Curve your fingers when you rest your fingers on the piano. </br>
+ * Keep your nails clean and short! </br></p>
+
+<h3>B. Piano Sitting Position:</h3>
+<p>
+ * Sit only half of your seat. </br>
+ * Your back should be straight.</br>
+ * Both feet flat on the floor.</br></p>
 
 <div class="video">
-embed video here, left hand, right hand, how to sit in front of the piano.
+<!--Add video LH & RH fingering, curve fingers, and sitting position-->
+
+<h3>C. Video:</h3>
 </div>
+
+<p>
+Congratulations! You've completed your 1st piano class. Isn't it easy? </br>
+Now, you're ready to learn the values on the notes. 
+Click <a href="beat.php">here</a> to go to the next lesson.</p>
+
+</div>
+
+
 
 <div class="footerholder">
 <div class="footer">

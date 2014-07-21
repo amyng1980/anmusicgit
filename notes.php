@@ -10,6 +10,12 @@
 
 <?php include 'navigation.php';?>
 <div id="content">
+<h1>Lesson 3 Outlines:</h1>
+<p>
+* Learn keys positions on the piano </br>
+* Learn clefs for piano </br>
+* Start reading musical notes </br></p>
+
 	<div id="keyboardChart">
         <h1>Keyboard Chart:</h1>
         <img src="resource_music/pianoKeys.jpg" class="ri"></br>

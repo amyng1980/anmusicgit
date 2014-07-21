@@ -49,15 +49,24 @@ body {
 }
 
 .noteValue{
-
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
 }
 
-.noteValue h2{
+.noteValue h3{
+    margin-top: 10px;
+    padding-bottom: 10px;
     vertical-align: top;
 }
+
+.noteValue h4{
+    margin-bottom: -10px;
+    vertical-align: top;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
 
 .content{
 	padding-top: 10px;
@@ -67,10 +76,16 @@ body {
     padding-left: 10px;
     font-size: 27px;
     color: #002A67;
+    margin-bottom: 0px;
 }
 
 #content h2{
     font-size: 25px;
+    padding-left: 10px;
+}
+
+#content h3{
+    margin-bottom: -10px;
     padding-left: 10px;
 }
 
@@ -80,7 +95,7 @@ body {
 }
 
 #content p{
-    font-size: 14px;
+    font-size: 17px;
     padding-left: 10px;
     padding-bottom: 20px;
 }
