@@ -27,7 +27,7 @@
     </div>
 
     <div>
-        <label for="mail">Email:</label>
+        <label for="email">Email:</label>
         <input type="text" id="email">
     </div>
 
@@ -42,7 +42,22 @@
     </div>
 </form>
 </div>
+<?php
+$dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
+          port=5432
+          dbname=dbjod4rptv3953 
+          user=ltlvdznvovjwbi
+          password=-ZqJ5BlJLigG94kv24HDCF7Cf4
+          sslmode=require");
 
+
+
+
+$query = pg_query($dbconn,"SELECT * from webform);
+
+
+$result->closeCursor();
+?>
 
 <div class="footerholder">
 <div class="footer">

@@ -26,14 +26,7 @@ $dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
 
 $query = pg_query($dbconn,"SELECT employee_id, last_name, first_name, title FROM employees");
 
-while ($row=pg_fetch_array($query)) {
-    echo "<tr>";
-    echo "<td>" . $row["employee_id"] . "</td>";
-    echo "<td>" . htmlspecialchars($row["last_name"]) . "</td>";
-    echo "<td>" . htmlspecialchars($row["first_name"]) . "</td>";
-    echo "<td>" . htmlspecialchars($row["title"]) . "</td>";
-    echo "</tr>";
-}
+
 $result->closeCursor();
 ?>
    </tbody>
