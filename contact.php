@@ -53,19 +53,11 @@ $dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
 
 
 
-$query = pg_query($dbconn,"SELECT id, firstName, lastName, email, comment from webform");
-while ($row=pg_fetch_array($query)) {
-    echo "<tr>";
-    echo "<td>" . $row["id"] . "</td>";
-    echo "<td>" . htmlspecialchars($row["firstName"]) . "</td>";
-    echo "<td>" . htmlspecialchars($row["lastName"]) . "</td>";
-    echo "<td>" . htmlspecialchars($row["email"]) . "</td>";
-        echo "<td>" . htmlspecialchars($row["comment"]) . "</td>";
-    echo "</tr>";
-}
+$query = pg_query($dbconn,"INSERT INTO webform(firstName, lastName, email, comment) VALUES ('" . $firstName . "', '" . $lastName . "', '" . $email. "', '" . $comment . "')");
 
 $result->closeCursor();
 ?>
+
 
 <div class="footerholder">
 <div class="footer">
