@@ -16,7 +16,7 @@
 <div style="clear: both;"></div>
 <div id="content">
 <h1>Your First Music Lesson:</h1>
-<h3>A. Your Fingers:</h3>
+<h3>A1. Your Fingers:</h3>
 <p>
  * Your thumbs are always the 1st finger. </br>
  * Your index fingers are your 2nd finger. </br>
@@ -45,9 +45,10 @@ Click <a href="beat.php">here</a> to go to the next lesson.</p>
 
 
 
-<div class="footerholder">
-<div class="footer">
-<?php include 'footer.php';?>
+<div class="footer1">
+<?php
+echo "Copyright 2010-" .date("Y"). " by Amy Ng. All Rights Reserved.";
+?>
 </div>
 </div>
 </body>
