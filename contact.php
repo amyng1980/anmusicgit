@@ -53,8 +53,16 @@ $dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
 
 
 
-$query = pg_query($dbconn,"SELECT * from webform);
-
+$query = pg_query($dbconn,"SELECT id, firstName, lastName, email, comment from webform");
+while ($row=pg_fetch_array($query)) {
+    echo "<tr>";
+    echo "<td>" . $row["id"] . "</td>";
+    echo "<td>" . htmlspecialchars($row["firstName"]) . "</td>";
+    echo "<td>" . htmlspecialchars($row["lastName"]) . "</td>";
+    echo "<td>" . htmlspecialchars($row["email"]) . "</td>";
+        echo "<td>" . htmlspecialchars($row["comment"]) . "</td>";
+    echo "</tr>";
+}
 
 $result->closeCursor();
 ?>
