@@ -55,7 +55,9 @@ $dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
 
 $query = pg_query($dbconn,"INSERT INTO webform(firstName, lastName, email, comment) VALUES ('$firstName', '$lastName', '$email', '$comment')");
 
-$result->closeCursor();
+var_dump($query);
+
+pg_close($dbconn);
 ?>
 
 
