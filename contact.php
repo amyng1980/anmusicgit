@@ -43,6 +43,7 @@
 </form>
 </div>
 <?php
+if ($_POST['submit']) {
 $dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
           port=5432
           dbname=dbjod4rptv3953 
@@ -50,14 +51,15 @@ $dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com
           password=-ZqJ5BlJLigG94kv24HDCF7Cf4
           sslmode=require");
 
+$sql = "INSERT INTO webform(firstName, lastName, email, comment) VALUES ('$firstName', '$lastName', '$email', '$comment')";
+
+$result = pg_query($dbconn, $sql);
 
 
-
-$query = pg_query($dbconn,"INSERT INTO webform(firstName, lastName, email, comment) VALUES ('$firstName', '$lastName', '$email', '$comment')");
-
-var_dump($query);
-
+//var_dump($result);
 pg_close($dbconn);
+//$result->closeCursor();
+}
 ?>
 
 
