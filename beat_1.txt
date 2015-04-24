@@ -17,15 +17,18 @@
 
         <h1>Lesson 2 Outlines:</h1>
         <p>
-        * Try to memorize some terminologies and the values of the notes below. </br>
+        * Memorize the following terminologies and the values of the notes below. </br>
           1. Whole Note and Whole Rest</br>
           2. Half Note and Half Rest</br>
           3. Quarter Note and Quarter Rest</br>
-	  4. Bar Line, Measure, and Double Bar</br>
-          5. Simple Time Signature</br></br>
-
+          4. Bar Line, Measure, and Double Bar</br>
+          5. Simple Time Signature</br>
         
-  	<h2>Note Values:</h2>      
+        </br>
+        After lesson 2, you'll learn keys positions on the piano and play the music.</p>
+
+        <h3>A. Note Values:</h3>
+        
         <div class="noteValue">
         <h4>Whole Note</h4>
         <ul>
@@ -34,9 +37,8 @@
                 <li>For whole note, we play the note(s) and hold for 4 beats.</li>
                 <li>For whole rest, we count 4 beats without playing any note.</li>
         </ul>
-        <img src="resource_music/whole.jpg"></div>
- 	
-	<div class="noteValue">
+        <img src="resource_music/whole.jpg">
+ 
         <h4>Half Note</h4>
         <ul>
                 <li>There 2 beats for a half note and a half rest.</li>
@@ -44,9 +46,8 @@
                 <li>For half note, we play the note and hold for 2 beats.</li>
                 <li>For half rest, we count 2 beats without playing any note.</li>
         </ul>
-        <img src="resource_music/half.jpg"></div>
+        <img src="resource_music/half.jpg">
 
-	<div class="noteValue">
         <h4>Quarter Note</h4>        
         <ul>
         	<li>There is 1 beat for a quarter note and a quarter rest.</li>
@@ -54,12 +55,11 @@
                 <li>For quarter note, we play the note and hold for 1 beat.</li>
                 <li>For quarter rest, we count 1 beat without playing any note.</li>
         </ul>
-        <img src="resource_music/quarter.jpg"></div></br>
+        <img src="resource_music/quarter.jpg">
+        </div>
 
-
-<h2>Barline & Measure:</h2>
 <div id="barlineMeasure">
-        
+        <h3>B. Barline & Measure:</h3>
         <ul>
 		<li>Barline is a vertical line that divides the musical notes in to "Measure".</li>
                 <li>Spaces between the bar lines are called the "Measures". In the example below, we have 4 measures.</li>
@@ -70,16 +70,23 @@
 
 
 <div id="simpleTimeSignature">
-        <h2>Simple Time Signature:</h2>
-	<ul>		
-                <li>There are 2 numbers to form a time signature.</li>
-		<li>The number on the top indicates the total count of a measure.</li>
-		<li>At this point, just focus on the number on the top. Don't worry about the number at the bottom.</li>
-        </ul>
+        <h3>C. Simple Time Signature:</h3>
         <br/>
         <img src="resource_music/24.jpg" class="ri"></br>
 </div>
+
+
+
+<div class="video">
+<!--Add video LH & RH fingering, curve fingers, and sitting position-->
+
+<h3>D. Clap Your Hands With Amy Video:</h3>
 </div>
+<div></br></br></br></div>
+<div id="downloadHw">
+        <a href="#">Download Homework</a>
+</div>
+
 <p>
 ** Please complete lesson 2 homework before starting lesson 3. </br>
 Click <a href="keyposition.php">here</a> to start lesson 3.</p>

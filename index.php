@@ -16,7 +16,7 @@
 <div style="clear: both;"></div>
 <div id="content">
 <h1>Your First Music Lesson:</h1>
-<h3>A1. Your Fingers:</h3>
+<h3>Your Fingers:</h3>
 <p>
  * Your thumbs are always the 1st finger. </br>
  * Your index fingers are your 2nd finger. </br>
@@ -24,7 +24,7 @@
  * Curve your fingers when you rest your fingers on the piano. </br>
  * Keep your nails clean and short! </br></p>
 
-<h3>B. Piano Sitting Position:</h3>
+<h3>Piano Sitting Position:</h3>
 <p>
  * Sit only half of your seat. </br>
  * Your back should be straight.</br>
@@ -33,7 +33,6 @@
 <div class="video">
 <!--Add video LH & RH fingering, curve fingers, and sitting position-->
 
-<h3>C. Video:</h3>
 </div>
 
 <p>
