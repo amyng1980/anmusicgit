@@ -37,19 +37,15 @@ $(function(){
 			
 			function judgeSkills(score) {
 				var returnString;
-					if (score==100) returnString = "Albus, is that you?"
+					if (score==100) returnString = "Execellent! You got 100%."
 
-					else if (score>90) returnString = "Outstanding, noble sir!"
+					else if (score>80) returnString = "Great job! Keep up the good work."
 
-					else if (score>70) returnString = "Exceeds expectations!"
+					else if (score>60) returnString = "Not bad! But you can surely do better than this."
 
-					else if (score>50) returnString = "Acceptable. For a muggle."
+					else if (score>50) returnString = "Well, that was poor. Revise the lesson and try again."
 					
-					else if (score>35) returnString = "Well, that was poor."
-
-					else if (score>20) returnString = "Dreadful!"
-					
-					else returnString = "For shame, troll!"
+					else returnString = "Er... did you study before taking the quiz?"
 
 				return returnString;
 			}
