@@ -24,8 +24,8 @@
 	</div>
 
 	<div id="downloadHw">
-        <a href="resource_music/kidManuscript.pdf" target="_blank">Download a blank manuscript and practice writing the clefs</a></br>
-        <a href="resource_music/traceClef.jpg" target="_blank">For young kids: Download the file and trace the clefs</a></br>
+        <a href="resource_music/kidManuscript.pdf" download>Download a blank manuscript and practice writing the clefs</a></br>
+        <a href="resource_music/traceClef.jpg" download>For young kids: Download the file and trace the clefs</a></br>
 	</div></br></br>
 
 	<div id="stave">

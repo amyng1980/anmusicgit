@@ -15,7 +15,7 @@
 		<li><a href="beat.php">*Count the beats </a> </li>
 		<li><a href="keyposition.php">*Keys positions  </a> </li>
 		<li><a href="readnote.php">*Musical notation  </a> </li>
-		<li><a href="download.php">*Download  </a> </li>
+		<li><a href="quiz.php">*Ready to take a quiz?</a> </li>
 		<li><a href="contact.php">*Contact Us</a> </li>
 		</ul>
 	</div>
