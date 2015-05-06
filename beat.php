@@ -61,9 +61,9 @@
 <div id="barlineMeasure">
         
         <ul>
-		<li>Barline is a vertical line that divides the musical notes in to "Measure".</li>
-                <li>Spaces between the bar lines are called the "Measures". In the example below, we have 4 measures.</li>
-                <li>The double bar lines indicates the end of the music.</li>
+		<li>Barline is a vertical line that divides the musical notes into "measure".</li>
+                <li>Spaces between the bar lines are called the "measures". In the example below, we have 4 measures.</li>
+                <li>The double barline indicates the end of the music.</li>
         </ul>
         <img src="resource_music/barline.jpg" class="ri"></br>
 </div>
