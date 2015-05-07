@@ -8,7 +8,7 @@
 	-moz-box-shadow:0 1px 5px #D9D9D9,inset 0 10px 20px #F1F1F1;
 	border-radius: 2px;
 	position: relative;
-	width: 600px;
+	width: 700px;
 	font-family:  "Myriad", "Myriad Pro", "Helvetica","Segoe UI", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -36,7 +36,7 @@
 }
 
 h2.qTitle {
-	font-size: 32px;
+	font-size: 26px;
 	margin-top: 30px;
 }
 
@@ -112,19 +112,19 @@ h2.qTitle {
 
  #progress {
     width: 0;
-	 height: 20px;
-  color: #4c4c4c;
-  background: #f6f6f6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#d4d4d4));
-  background: -webkit-linear-gradient(#f6f6f6, #d4d4d4);
-  background-image: -moz-linear-gradient(top, #f6f6f6, #d4d4d4);
-  background-image: -moz-gradient(top, #f6f6f6, #d4d4d4);
+	height: 20px;
+  	color: #4c4c4c;
+  	background: #f6f6f6;
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#d4d4d4));
+  	background: -webkit-linear-gradient(#f6f6f6, #d4d4d4);
+  	background-image: -moz-linear-gradient(top, #f6f6f6, #d4d4d4);
+  	background-image: -moz-gradient(top, #f6f6f6, #d4d4d4);
  }
 
 #resultKeeper {
     margin: 10px;
-	 text-align: center;
-	 overflow: auto;
+	text-align: center;
+	overflow: auto;
 }
 
 #notice {
@@ -216,8 +216,8 @@ h2.qTitle {
 	width: 300px;
 	padding: 15px;
 	margin: 0 auto;
-	 clear: both;
-	 font-size: 16px;
+	clear: both;
+	font-size: 16px;
 }
 
 .question {

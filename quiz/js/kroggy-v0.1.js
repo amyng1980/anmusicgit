@@ -37,15 +37,13 @@ $(function(){
 			
 			function judgeSkills(score) {
 				var returnString;
-					if (score==100) returnString = "Execellent! You got 100%."
+					if (score==100) returnString = "Execellent!"
 
-					else if (score>80) returnString = "Great job! Keep up the good work."
+					else if (score>70) returnString = "Great job! Keep up the good work."
 
-					else if (score>60) returnString = "Not bad! But you can surely do better than this."
-
-					else if (score>50) returnString = "Well, that was poor. Revise the lesson and try again."
+					else if (score>50) returnString = "Good try! But you can surely do better than this."
 					
-					else returnString = "Er... did you study before taking the quiz?"
+					else returnString = "Well, please revise the lesson and try again."
 
 				return returnString;
 			}
@@ -122,7 +120,7 @@ $(function(){
 					 score =  roundReloaded(trueCount / questionLength*100, 2);
 					 answerKey = "<div id='answer-key'>" + answerKey + "</div>";
 					 
-                resultSet = '<h2 class="qTitle">' +judgeSkills(score) + ' You scored '+score+'%</h2>' + resultSet + answerKey;
+                resultSet = '<h2 class="qTitle">' +judgeSkills(score) + '</br>' + ' You scored '+score+'%</h2>' + resultSet + answerKey;
                 $('#resultKeeper').html(resultSet).show();
 					 
 					 $(this).parents('.questionContainer').fadeOut(500, function(){
