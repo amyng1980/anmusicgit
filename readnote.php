@@ -40,15 +40,11 @@
 		<img src="resource_music/keyBoardStaffNotes.jpg" class="ri"> 
 	</div>
 
-	<div id="downloadHw">
-        <a href="#">Download Homework</a>
-</div>
-
 <div></br></br></br></div>
 
 <div id="writeNote">
     <h2>How To Write Musical Notes</h2>
-        <img src="#"></br>
+        ***video here</br>
 </div>
 </div>
 </div>
