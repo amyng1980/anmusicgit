@@ -42,10 +42,6 @@
 
 <div></br></br></br></div>
 
-<div id="writeNote">
-    <h2>How To Write Musical Notes</h2>
-        ***video here</br>
-</div>
 </div>
 </div>
 

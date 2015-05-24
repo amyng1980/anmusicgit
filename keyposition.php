@@ -23,13 +23,13 @@
 
         <h2>Let's Play Music Letters On The Piano</h2>
 		<div id="firstMusic">
-		<h3>** Mary Had A Littel Lamb **</h3></br>
+		<h3>** Mary Had A Little Lamb **</h3></br>
         	<iframe width="560" height="315" src="https://www.youtube.com/embed/8pP4EC9PDnM" frameborder="0" allowfullscreen></iframe>
 		</div>
 
 	
 		<div id="downloadHw">
-        	<a href="resource_music/maryHadALittleLamb.jpg" download>Download Music Sheet: Mary Had A Littel Lamb for Right Hand</a>
+        	<a href="resource_music/maryHadALittleLamb.jpg" download>Download Music Sheet: Mary Had A Little Lamb for Right Hand</a>
 		</div>
 
 		<div id="secondMusic">
