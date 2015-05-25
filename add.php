@@ -9,7 +9,7 @@ $lastname = pg_escape_string($_POST['lastname']);
 $email = pg_escape_string($_POST['email']); 
 $comment = pg_escape_string($_POST['comment']); 
 
-$query = "INSERT INTO friends(firstname, lastname, email, comment) VALUES('" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . $comment . "')";
+$query = "INSERT INTO webform(firstname, lastname, email, comment) VALUES('" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . $comment . "')";
 
 $result = pg_query($db, $query);
 

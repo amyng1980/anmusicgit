@@ -13,7 +13,7 @@
 <?php include 'navigation.php';?>
 
 <div id="content">
-        <h1>Contact Amy4:</h1>
+        <h1>Contact Amy5:</h1>
  
  <form action="add.php" method="post">
     <div>
