@@ -13,23 +13,27 @@
 <?php include 'navigation.php';?>
 
 <div id="content">
-        <h1>Contact Amy5:</h1>
+        <h1>Contact Amy:</h1>
  
  <form action="add.php" method="post">
     <div>
-        First Name:<input type="text" name="firstname" size="40" length="40">
+        <lable for="firstname">First Name:</lable>
+        <input type="text" name="firstname" size="40" length="40">
     </div>
 
     <div>
-        Last Name:<input type="text" name="lastname" size="40" length="40">
+        <lable for="lastname">Last Name:</lable>
+        <input type="text" name="lastname" size="40" length="40">
     </div>
 
     <div>
-        Email:<input type="text" name="email" size="40" length="40">
+        <lable for="email">Email:</label>
+        <input type="text" name="email" size="40" length="40">
     </div>
 
     <div>
-        Comment:<textarea name="comment" size="600" length="600"></textarea>
+        <lable for="comment">Comment:</lable>
+        <textarea name="comment" size="600" length="600"></textarea>
     </div>
 
 
