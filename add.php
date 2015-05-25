@@ -19,7 +19,7 @@ $result = pg_query($db, $query);
     exit(); 
   } 
 
-printf ("These values were inserted into the database - %s %s %s", $firstname, $surname, $emailaddress); 
+printf ("These values were inserted into the database - %s %s %s %s", $firstname, $lastname, $email, $comment); 
 
 
 //var_dump($result);
