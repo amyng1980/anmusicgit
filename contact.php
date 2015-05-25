@@ -15,7 +15,7 @@
 <div id="content">
         <h1>Contact Amy:</h1>
  
- <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+ <form action="add.php" method="post">
     <div>
         <label for="firstName">First Name:</label>
         <input type="text" id="firstname" size="40" length="40">
@@ -42,31 +42,6 @@
     </div>
 </form>
 </div>
-<?php
-if ($_POST['submit']) {
-$dbconn = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com dbname=dbjod4rptv3953 user=ltlvdznvovjwbi password=-ZqJ5BlJLigG94kv24HDCF7Cf4");
-
-$firstname = pg_escape_string($_POST['firstname']); 
-$lastname = pg_escape_string($_POST['lastname']); 
-$email = pg_escape_string($_POST['email']); 
-$comment = pg_escape_string($_POST['comment']); 
-$sql = "INSERT INTO webform(firstName, lastName, email, comment) VALUES ('$firstName', '$lastName', '$email', '$comment')";
-
-$result = pg_query($dbconn, $sql);
-
- if (!$result) {
-        die("Error in SQL query: " . pg_last_error());
-    }
-
-    echo "Thank you!";
-
-
-//var_dump($result);
-pg_close($dbconn);
-//$result->closeCursor();
-}
-?>
-
 
 <div class="footerholder">
 <div class="footer">
