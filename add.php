@@ -2,7 +2,7 @@
     <body> 
 <?php
 if ($_POST['submit']) {
-$db = pg_connect("host=ec2-54-204-24-154.compute-1.amazonaws.com dbname=dbjod4rptv3953 user=ltlvdznvovjwbi password=-ZqJ5BlJLigG94kv24HDCF7Cf4");
+$db = pg_connect('host=ec2-54-204-24-154.compute-1.amazonaws.com dbname=dbjod4rptv3953 user=ltlvdznvovjwbi password=-ZqJ5BlJLigG94kv24HDCF7Cf4');
 
 $firstname = pg_escape_string($_POST['firstname']); 
 $lastname = pg_escape_string($_POST['lastname']); 
@@ -14,8 +14,10 @@ $query = "INSERT INTO friends(firstname, surname, email, comment) VALUES('" . $f
 $result = pg_query($query);
 
  if (!$result) {
-        die("Error in SQL query: " . pg_last_error());
-    }
+  $errormessage = pg_last_error(); 
+    echo "Error with query: " . $errormessage; 
+    exit(); 
+  } 
 
     echo "Thank you!";
 
@@ -23,7 +25,6 @@ $result = pg_query($query);
 //var_dump($result);
 pg_close();
 //$result->closeCursor();
-}
 ?>
 
 </body>
