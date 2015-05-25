@@ -11,7 +11,7 @@ $comment = pg_escape_string($_POST['comment']);
 
 $query = "INSERT INTO friends(firstname, lastname, email, comment) VALUES('" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . $comment . "')";
 
-$result = pg_query($query);
+$result = pg_query($db, $query);
 
  if (!$result) {
   $errormessage = pg_last_error(); 
