@@ -9,7 +9,7 @@ $lastname = pg_escape_string($_POST['lastname']);
 $email = pg_escape_string($_POST['email']); 
 $comment = pg_escape_string($_POST['comment']); 
 
-$query = "INSERT INTO friends(firstname, surname, email, comment) VALUES('" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . $comment . "')";
+$query = "INSERT INTO friends(firstname, lastname, email, comment) VALUES('" . $firstname . "', '" . $lastname . "', '" . $email . "', '" . $comment . "')";
 
 $result = pg_query($query);
 
@@ -19,7 +19,7 @@ $result = pg_query($query);
     exit(); 
   } 
 
-    echo "Thank you!";
+printf ("These values were inserted into the database - %s %s %s", $firstname, $surname, $emailaddress); 
 
 
 //var_dump($result);
