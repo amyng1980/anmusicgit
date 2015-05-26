@@ -15,7 +15,7 @@
 <?php include 'navigation.php';?>
 <div style="clear: both;"></div>
 <div id="content">
-<h1>Your First Music Lesson:</h1>
+<h1>Your 1st Music Lesson:</h1>
 <h3>Your Fingers:</h3>
 <p>
  * Your thumbs are always the 1st finger. </br>
