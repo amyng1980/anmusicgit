@@ -46,10 +46,10 @@
 </div>
 
 
-<div class="footer1">
-<?php
-echo "Copyright 2010-" .date("Y"). " by Amy Ng. All Rights Reserved.";
-?>
+<div class="footerholder">
+<div class="footer">
+<?php include 'footer.php';?>
+</div>
 </div>
 </body>
 </html>

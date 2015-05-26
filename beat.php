@@ -84,10 +84,10 @@
 ** Please complete lesson 2 homework before starting lesson 3. </br>
 Click <a href="keyposition.php">here</a> to start lesson 3.</p>
 
-<div class="footer1">
-<?php
-echo "Copyright 2014-" .date("Y"). " by Amy Ng. All Rights Reserved.";
-?>
+<div class="footerholder">
+<div class="footer">
+<?php include 'footer.php';?>
+</div>
 </div>
 </body>
 
