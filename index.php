@@ -37,7 +37,7 @@
 
 <p>
 Congratulations! You've completed your 1st piano class. Isn't it easy? </br>
-Now, you're ready to learn the values on the notes. 
+Now, you're ready to learn the values of the notes. 
 Click <a href="beat.php">here</a> to go to the next lesson.</p>
 
 </div>
@@ -46,7 +46,7 @@ Click <a href="beat.php">here</a> to go to the next lesson.</p>
 
 <div class="footer1">
 <?php
-echo "Copyright 2010-" .date("Y"). " by Amy Ng. All Rights Reserved.";
+echo "Copyright 2014-" .date("Y"). " by Amy Ng. All Rights Reserved.";
 ?>
 </div>
 </div>

@@ -31,8 +31,8 @@
         <ul>
         	<li>There are 4 beats for a whole note and a whole rest.</li>
         	<li>We count 1, 2, 3, 4.</li>
-                <li>For whole note, we play the note(s) and hold for 4 beats.</li>
-                <li>For whole rest, we count 4 beats without playing any note.</li>
+                <li>For a whole note, we play the note and hold for 4 beats.</li>
+                <li>For a whole rest, we count 4 beats without playing any note.</li>
         </ul>
         <img src="resource_music/whole.jpg"></div>
  	
@@ -41,8 +41,8 @@
         <ul>
                 <li>There 2 beats for a half note and a half rest.</li>
                 <li>We count 1, 2.</li>
-                <li>For half note, we play the note and hold for 2 beats.</li>
-                <li>For half rest, we count 2 beats without playing any note.</li>
+                <li>For a half note, we play the note and hold for 2 beats.</li>
+                <li>For a half rest, we count 2 beats without playing any note.</li>
         </ul>
         <img src="resource_music/half.jpg"></div>
 
@@ -51,8 +51,8 @@
         <ul>
         	<li>There is 1 beat for a quarter note and a quarter rest.</li>
         	<li>We count 1.</li>
-                <li>For quarter note, we play the note and hold for 1 beat.</li>
-                <li>For quarter rest, we count 1 beat without playing any note.</li>
+                <li>For a quarter note, we play the note and hold for 1 beat.</li>
+                <li>For a quarter rest, we count 1 beat without playing any note.</li>
         </ul>
         <img src="resource_music/quarter.jpg"></div></br>
 
@@ -86,7 +86,7 @@ Click <a href="keyposition.php">here</a> to start lesson 3.</p>
 
 <div class="footer1">
 <?php
-echo "Copyright 2010-" .date("Y"). " by Amy Ng. All Rights Reserved.";
+echo "Copyright 2014-" .date("Y"). " by Amy Ng. All Rights Reserved.";
 ?>
 </div>
 </body>

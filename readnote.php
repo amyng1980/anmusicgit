@@ -30,7 +30,7 @@
 
 	<div id="stave">
 	<h2>Staff or Stave:</h2>
-	<p>* For a staff, there 5 horizontal lines and 4 spaces.</p>
+	<p>* For a staff, there are 5 horizontal lines and 4 spaces.</p>
 	<img src="resource_music/line.png" class="ri"> 
 	</div></br></br>
 

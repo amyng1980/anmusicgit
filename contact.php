@@ -101,7 +101,7 @@ textarea {
 
 <div class="footerholder">
 <div class="footer">
-Copyright 2010-2015 by Amy Ng. All Rights Reserved.</div>
+Copyright 2014-2015 by Amy Ng. All Rights Reserved.</div>
 </div>
 </body>
 </html>
