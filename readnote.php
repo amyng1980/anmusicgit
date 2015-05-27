@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" media="only screen and (max-device-width: 600px)" href="small.css">
-
 	<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
-
 </head>
 
 <body>
@@ -15,7 +12,6 @@
 <div id="content">
 <h1>Lesson 4 Outlines:</h1>
 <p>
-
 * Learn clefs for piano. </br>
 * Start reading musical notes. </br></p>
 	<div class="clef">
@@ -36,20 +32,17 @@
 
 	<div id="middleC">
         <h2>Reading Notes:</h2>
-	<img src="resource_music/LineSpaceNotes.jpg" class="ri"> 
+		<img src="resource_music/LineSpaceNotes.jpg" class="ri"> 
 		<img src="resource_music/keyBoardStaffNotes.jpg" class="ri"> 
 	</div>
 
 <div></br></br></br></div>
 
-</div>
-</div>
+</div><!--div for div id="content"-->
 
 
 <div class="footer1">
-<?php
-echo "Copyright 2014-" .date("Y"). " by Amy Ng. All Rights Reserved.";
-?>
+<?php include 'footer.php';?>
 </div>
 </body>
 </html>

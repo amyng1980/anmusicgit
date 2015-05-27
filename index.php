@@ -3,19 +3,15 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="only screen and (max-device-width: 600px)" href="small.css">
-	
+	<link rel="stylesheet" media="only screen and (max-device-width: 680px)" href="small.css">
 	<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
-<!--<script type="text/javascript" src="myjs.js"></script>-->
-
-
 </head>
 
 <body>
 <?php include 'navigation.php';?>
 <div style="clear: both;"></div>
 <div id="content">
-<h1>Your 1st Music Lesson:</h1>
+<h1>Your First Music Lesson1:</h1>
 <h3>Your Fingers:</h3>
 <p>
  * Your thumbs are always the 1st finger. </br>
@@ -39,15 +35,11 @@
 Congratulations! You've completed your 1st piano class. Isn't it easy? </br>
 Now, you're ready to learn the values of the notes. 
 Click <a href="beat.php">here</a> to go to the next lesson.</p>
-
+</div>
+<div class="footer1">
+<?php include 'footer.php';?>
 </div>
 
-
-
-<div class="footer1">
-<?php
-echo "Copyright 2014-" .date("Y"). " by Amy Ng. All Rights Reserved.";
-?>
 </div>
 </body>
 </html>

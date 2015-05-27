@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
 <?php include 'navigation.php';?>
 <div id="content">
 <h1>Lesson 3 Outlines:</h1>
@@ -34,7 +33,7 @@
 
 		<div id="secondMusic">
 		<h3>** Little Bee In The Garden **</h3></br>
-        	video here!!!
+        	<!--Add video-->
 		</div>
 	
 
@@ -45,7 +44,7 @@
 
 		<div id="thirdMusic">
 		<h3>** Dyno My Pet Dinosaur **</h3></br>
-        	video here!!!
+        	<!--Add video-->
 		</div>
 
 
@@ -60,16 +59,10 @@
 <p>
 ** Now, you're ready to read notes in lesson 4. </br>
 Click <a href="readnote.php">here</a> to start lesson 4.</p>
-
-
-</div>
-</div>
-
+</div><!--div for div id="content"-->
 
 <div class="footer1">
-<?php
-echo "Copyright 2014-" .date("Y"). " by Amy Ng. All Rights Reserved.";
-?>
+<?php include 'footer.php';?>
 </div>
 </body>
 </html>

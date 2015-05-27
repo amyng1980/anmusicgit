@@ -19,13 +19,17 @@ $result = pg_query($db, $query);
     exit(); 
   } 
 
-printf ("These values were inserted into the database - %s %s %s %s", $firstname, $lastname, $email, $comment); 
+printf ("These values were inserted into the database:");
 
+printf ("First name: %s <br />", $firstname); 
+printf ("Last name: %s <br />", $lastname); 
+printf ("Email address: %s <br />", $email); 
+printf ("Comment: %s", $comment); 
 
 //var_dump($result);
 pg_close();
 //$result->closeCursor();
 ?>
-
+Click <a href="index.php">here</a> to go back to the home page.</p>
 </body>
 </html>

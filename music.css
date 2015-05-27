@@ -155,26 +155,7 @@ input:focus, textarea:focus {
     background-color: #BFD4FF;
     font-size: 17px;
 }
-/*
-.formalign{
-    padding-left: 10px;
-    padding-top: 20px;
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: left;
-}
 
-.formalign input, textarea {
-  display: inline-block;
-  float: right;
-}
-
-textarea:focus, input:focus {
-    border: 2px solid #900;
-}
-*/
 .submitBtn{
     padding-left: 10px;
     padding-top: 20px;
