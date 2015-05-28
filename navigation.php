@@ -3,8 +3,8 @@
 <head>
 	<title>Navigation</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="all and (orientation:portrait)" href="small.css">
-	<link rel="stylesheet" media="all and (orientation:landscape)" href="small_l.css">
+	<link rel="stylesheet" media="all and (max-device-width: 680px)" href="small.css">
+	<link rel="stylesheet" media="all and (max-device-width: 480px)" href="small_l.css">
 	<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
 </head>
 <body>
