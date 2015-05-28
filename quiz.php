@@ -2,9 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="small.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 680px)" href="small.css">
     <link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
-    <link type="text/css" rel="stylesheet" href="music.css">
 </head>
 
 <body>

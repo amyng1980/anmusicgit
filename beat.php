@@ -76,7 +76,7 @@
 Click <a href="keyposition.php">here</a> to start lesson 3.</p>
 </div><!--div for div id="content"-->
 
-<div class="footer1">
+<div class="footer">
 <?php include 'footer.php';?>
 </div>
 </body>

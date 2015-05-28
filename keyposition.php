@@ -61,7 +61,7 @@
 Click <a href="readnote.php">here</a> to start lesson 4.</p>
 </div><!--div for div id="content"-->
 
-<div class="footer1">
+<div class="footer">
 <?php include 'footer.php';?>
 </div>
 </body>
