@@ -79,7 +79,7 @@
 </div>
 
 <div id="downloadHw">
-        <a href="resource_music/Lesson2NoteValueHW.png" download>Homework 2: Download the time signature homework here</a></br>
+        <a href="resource_music/Lesson2TimeSignatureHW.png" download>Homework 2: Download the time signature homework here</a></br>
     </div></br></br>
 
 
