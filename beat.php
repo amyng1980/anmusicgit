@@ -5,7 +5,7 @@
     <link rel="stylesheet" media="only screen and (max-device-width: 680px)" href="small.css">
     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="small_l.css">
     <link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
-    
+
 </head>
 
 <body>
@@ -18,7 +18,8 @@
         2. Half Note and Half Rest</br>
         3. Quarter Note and Quarter Rest</br>
 	    4. Bar Line, Measure, and Double Bar</br>
-        5. Simple Time Signature</br></br>
+        5. Simple Time Signature</br>
+        6. There are 2 homeworks: i) Note values ii) Time Signature </br></br>
        
   	<h2>Note Values:</h2>      
         <div class="noteValue">
@@ -49,7 +50,11 @@
             <li>For a quarter note, we press on the key and hold for 1 beat.</li>
             <li>For a quarter rest, without pressing any key, we count 1.</li>
         </ul>
-        <img src="resource_music/quarter.jpg"></div></br>
+        <img src="resource_music/quarter.jpg"></div>
+    
+    <div id="downloadHw">
+        <a href="resource_music/Lesson2NoteValueHW.png" download>Homework 1: Download the note value homework here</a></br>
+    </div></br></br>
 
 
 <div id="barlineMeasure">
@@ -59,7 +64,7 @@
             <li>Spaces between the barlines are called "measures". In the example below, we have 4 measures.</li>
             <li>The double barline indicates the end of the music.</li>
         </ul>
-        <img src="resource_music/barline.jpg" class="ri"></br>
+        <img src="resource_music/barline.png" class="ri"></br>
 </div>
 
 <div id="simpleTimeSignature">
@@ -72,6 +77,11 @@
         <br/>
         <img src="resource_music/24.jpg" class="ri"></br>
 </div>
+
+<div id="downloadHw">
+        <a href="resource_music/Lesson2NoteValueHW.png" download>Homework 2: Download the time signature homework here</a></br>
+    </div></br></br>
+
 
 <p>
 ** Please complete lesson 2 homework before starting lesson 3. </br>

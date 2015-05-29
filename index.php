@@ -32,7 +32,7 @@
 </div>
 
 <p>
-Congratulations! You've completed your 1st piano class. Isn't it easy? </br>
+Congratulations! You've completed your 1st piano lesson. Isn't it easy? </br>
 Now, you're ready to learn the values of the notes. 
 Click <a href="beat.php">here</a> to go to the next lesson.</p>
 </div>
