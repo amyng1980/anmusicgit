@@ -1,5 +1,5 @@
-/*For tablets*/
-@media screen and (max-device-width: 800px) and (orientation: portrait){
+/*----Galaxy S3 ------*/
+@media screen and (max-device-width: 480px) and (orientation: landscape){
 
 img.ri{
     max-width: 90%;
@@ -56,6 +56,8 @@ body {
     -webkit-border-bottom-right-radius: 8px;
 }
 
+
+
 label {
         float: left;
         text-align: left;
@@ -63,7 +65,7 @@ label {
         width: 100px;
         margin-top: 1em;
         margin-left: 1em;
-}
+    }
 
     input{
         margin-top: 1em;

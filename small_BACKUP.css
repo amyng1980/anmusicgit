@@ -1,5 +1,4 @@
-/*For tablets*/
-@media screen and (max-device-width: 800px) and (orientation: portrait){
+@media only screen and (max-device-width: 680px){
 
 img.ri{
     max-width: 90%;
