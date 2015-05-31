@@ -2,11 +2,9 @@
 <html>
 <head>
 	<title>AmyMusic</title>
-	<meta name="viewport" content="initial-scale=0.9, user-scalable=yes" /> <!--, width=device-width-->
-	<link rel="stylesheet" type="text/css" href="android.css" media="only screen and (max-width: 480px)" />
-	<link rel="stylesheet" type="text/css" href="samsung.css" media="only screen or (max-device-width: 480px)" />
-	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="small_l.css">
-	<link rel="stylesheet" type="text/css" href="music.css" media="only screen and (min-width: 481px)" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<link rel="stylesheet" type="text/css" href="small.css" media="only screen and (max-width: 480px)" />
+	<link rel="stylesheet" type="text/css" href="music.css" media="screen and (min-width: 481px)" />
 </head>
 <body>
 <div id="navi"><!--container-->

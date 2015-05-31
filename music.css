@@ -1,4 +1,4 @@
-@media only screen and (min-width : 1024px) {
+
     /*id selector*/
     #navi{
         background-color:#6F8CC8;
@@ -6,7 +6,7 @@
     }
 
 
-   ul#menu li a {
+   ul li a {
         text-align: center;
         font-weight: bold;
         float: left;
@@ -21,11 +21,11 @@
     }
 
     /*Pseudo-classes a:hover*/
-    ul#menu li a:hover{
+    ul li a:hover{
        color: white;
     }
 
-    ul#menu li {
+    ul li {
         display: inline; /* Prevents "stepdown" */
     } 
 
@@ -155,4 +155,3 @@
         font-family: Helvetica;
         font-size: 17px;
     }
-}

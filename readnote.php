@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="only screen and (max-device-width: 680px)" href="small.css">
-    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="small_l.css">
-	<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="music.css">
+	<meta name="viewport" content="user-scalable=yes" /> <!--, width=device-width-->
+	<link rel="stylesheet" type="text/css" href="android.css" media="only screen and (max-width: 480px)" />
+	<link rel="stylesheet" type="text/css" href="samsung.css" media="only screen or (max-device-width: 480px)" />
+	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="small_l.css">
+	<link rel="stylesheet" type="text/css" href="music.css" media="only screen and (min-width: 481px)" />
 </head>
 
 <body>
-
 <?php include 'navigation.php';?>
 <div id="content">
 <h1>Lesson 4 Outlines:</h1>

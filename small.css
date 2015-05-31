@@ -1,5 +1,5 @@
-/*For tablets*/
-@media screen and (max-device-width: 800px) and (orientation: portrait){
+/*For tablets Portrait or Landscape
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){*/
 
 img.ri{
     max-width: 90%;
@@ -11,6 +11,8 @@ body {
     width: 100%;
     background-color: #fff;
 }
+
+
 
 #navi{
     padding-right: 20px;
@@ -29,8 +31,13 @@ body {
     padding: 0;
 }
 
-#alignLeft ul li a{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+#alignLeft ul li a {
+
+    {
+        background-color: #FFFFFF;
+    /*background: -webkit-linear-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+      background: -webkit-linear-gradient(red, blue);
+      background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000));*/
     border: 1px solid #999999;
     color: #222222;
     display: block;
