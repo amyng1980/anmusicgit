@@ -12,26 +12,21 @@
 
 <body>
 <?php include 'navigation.php';
-$firstname = $_POST['firstname'];
-$email = $_POST['email'];
-if(empty($firstname) || empty($email)){
-    $error[] = 'Please enter fields marked with *.';
+
+if (isset($_POST['firstname'])){
+    $erro = array();
+    $firstname = $_POST['firstname'];
+    if(empty($firstname)){
+        $error[] = 'Please enter first name.';
+    }
 }
-    if(strlen($firstname) > 100){
-            $error["firstname"] = 'First name exceeds 100 characters.';  
-    }
-
-    if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)) {
-                $error["invalidemail"] = 'Invalid email address.';
-    }
-
 ?>
 <div id="content">
 <h1>Contact Amy:</h1>
  
  <form action="add.php" method="post">
     <div class="formalign">
-    <label>* First Name:</label><input type="text" name="firstname">
+    <label>* First Name:</label><input type="text" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
 
     <div class="formalign">
@@ -39,7 +34,8 @@ if(empty($firstname) || empty($email)){
     </div>
 
     <div class="formalign">
-       <label>* Email:</label><input type="text" name="email">
+       <label>Email:</label><input type="text" name="email">
+       
     </div>
 
     <div class="formalign">
