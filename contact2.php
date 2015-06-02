@@ -13,18 +13,26 @@
 <body>
 <?php include 'navigation.php';
 
-if (isset($_POST['firstname'])){
-    $erro = array();
+if (isset($_POST['firstname'], $_POST['email'])){
+    $error = array();
     $firstname = $_POST['firstname'];
+    $email = $_POST['email'];
+
     if(empty($firstname)){
-        $error[] = 'Please enter first name.';
+        $error["firstname"] = 'Please enter first name.';
     }
+
+
+    //if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)) {
+        //$error["invalidemail"] = 'Invalid email address.';
+    //}
 }
 ?>
 <div id="content">
 <h1>Contact Amy:</h1>
  
  <form action="add.php" method="post">
+
     <div class="formalign">
     <label>* First Name:</label><input type="text" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
