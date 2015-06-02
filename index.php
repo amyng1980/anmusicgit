@@ -26,9 +26,8 @@
  * Sit only half of your seat. </br>
  * Your back should be straight.</br>
  * Both feet flat on the floor.</br></p>
-
+<img src="resource_music/posture.jpg" class="ri"></br>
 <div class="video">
-<!--Add video LH & RH fingering, curve fingers, and sitting position-->
 
 </div>
 
