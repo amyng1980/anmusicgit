@@ -12,7 +12,7 @@
 <?php include 'navigation.php';?>
 
 <div id="content">
-<h1>Your First Music Lesson1:</h1>
+<h1>Your First Music Lesson:</h1>
 <h3>Your Fingers:</h3>
 <p>
  * Your thumbs are always the 1st finger. </br>
