@@ -61,9 +61,9 @@
 <div id="barlineMeasure">
     <h2>Barline & Measure:</h2>
         <ul>
-		    <li>Barline is a vertical line that divides the musical notes into "measure".</li>
-            <li>Spaces between the barlines are called "measures". In the example below, we have 4 measures.</li>
-            <li>The double barline indicates the end of the music.</li>
+		    <li>* Barline is a vertical line that divides the musical notes into "measure".</li></br>
+            <li>* Spaces between the barlines are called "measures". In the example below, we have 4 measures.</li></br>
+            <li>* The double barline indicates the end of the music.</li></br>
         </ul>
         <img src="resource_music/barline.png" class="ri"></br>
 </div>
@@ -71,9 +71,9 @@
 <div id="simpleTimeSignature">
     <h2>Simple Time Signature:</h2>
 	    <ul>		
-            <li>There are 2 numbers to form a time signature.</li>
-		    <li>The number on the top indicates the total count of a measure.</li>
-		    <li>At this point, just focus on the number on the top. Don't worry about the number at the bottom.</li>
+            <li>* There are 2 numbers to form a time signature.</li></br>
+		    <li>* The number on the top indicates the total count of a measure.</li></br>
+		    <li>* At this point, just focus on the number on the top. Don't worry about the number at the bottom.</li></br>
         </ul>
         <br/>
         <img src="resource_music/24.jpg" class="ri"></br>
