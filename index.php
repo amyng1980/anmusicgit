@@ -17,7 +17,7 @@
 <p>
  * Your thumbs are always the 1st finger. </br>
  * Your index fingers are your 2nd finger. </br>
-<img src="resource_music/LelfHandRightHand.jpg" class="ri"></br>
+<img src="resource_music/LeftHandRightHand.jpg" class="ri"></br>
  * Curve your fingers when you rest your fingers on the piano. </br>
  * Keep your nails clean and short! </br></p>
 
@@ -26,7 +26,7 @@
  * Sit only half of your seat. </br>
  * Your back should be straight.</br>
  * Both feet flat on the floor.</br></p>
-<img src="resource_music/LelfHandRightHand.jpg" class="ri"></br>
+<img src="resource_music/sitting.jpg" class="ri"></br>
 <div class="video">
 
 </div>
