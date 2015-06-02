@@ -26,30 +26,30 @@
         <div class="noteValue">
         <h4>Whole Note</h4>
         <ul>
-        	<li>There are 4 beats for a whole note and a whole rest.</li>
-        	<li>We count 1, 2, 3, 4.</li>
-            <li>For a whole note, we press on the key and hold for 4 beats.</li>
-            <li>For a whole rest, without pressing any key, we count 1, 2, 3, 4.</li>
+        	<li>* There are 4 beats for a whole note and a whole rest.</li></br>
+        	<li>* We count 1, 2, 3, 4.</li></br>
+            <li>* For a whole note, we press on the key and hold for 4 beats.</li></br>
+            <li>* For a whole rest, without pressing any key, we count 1, 2, 3, 4.</li></br>
         </ul>
         <img src="resource_music/whole.jpg"></div>
  	
 	    <div class="noteValue">
         <h4>Half Note</h4>
         <ul>
-            <li>There 2 beats for a half note and a half rest.</li>
-            <li>We count 1, 2.</li>
-            <li>For a half note, we press on the key and hold for 2 beats.</li>
-            <li>For a half rest, without pressing any key, we count 1, 2.</li>
+            <li>* There 2 beats for a half note and a half rest.</li></br>
+            <li>* We count 1, 2.</li></br>
+            <li>* For a half note, we press on the key and hold for 2 beats.</li></br>
+            <li>* For a half rest, without pressing any key, we count 1, 2.</li></br>
         </ul>
         <img src="resource_music/half.jpg"></div>
 
 	    <div class="noteValue">
         <h4>Quarter Note</h4>        
         <ul>
-        	<li>There is 1 beat for a quarter note and a quarter rest.</li>
-        	<li>We count 1.</li>
-            <li>For a quarter note, we press on the key and hold for 1 beat.</li>
-            <li>For a quarter rest, without pressing any key, we count 1.</li>
+        	<li>* There is 1 beat for a quarter note and a quarter rest.</li></br>
+        	<li>* We count 1.</li></br>
+            <li>* For a quarter note, we press on the key and hold for 1 beat.</li></br>
+            <li>* For a quarter rest, without pressing any key, we count 1.</li></br>
         </ul>
         <img src="resource_music/quarter.jpg"></div>
     
