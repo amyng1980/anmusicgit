@@ -21,7 +21,10 @@
 		</ul>
 	</div>
 	<div id="alignRight">
-		<?php echo "Today is ". date("d M, Y") . " " . substr(date("l"), 0, 3) . "." ?>
+		<?php date_default_timezone_set('America/Los_Angeles');
+		//date_default_timezone_set('Asia/Hong_Kong');
+		
+		echo "Today is ". date("d M, Y") . " " . substr(date("l"), 0, 3) . "." ?>
 	</div>
 </div>
 
