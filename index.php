@@ -26,7 +26,7 @@
  * Sit only half of your seat. </br>
  * Your back should be straight.</br>
  * Both feet flat on the floor.</br></p>
-<img src="resource_music/posture.jpg" class="ri"></br>
+<img src="resource_music/LelfHandRightHand.jpg" class="ri"></br>
 <div class="video">
 
 </div>
