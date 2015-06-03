@@ -62,7 +62,7 @@ header('Location: /add.php');
 }
 ?>
 <div id="content">
-<h1>Contact Amy 3:</h1>
+<h1>Contact Amy:</h1>
  
  <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method="post">
 
