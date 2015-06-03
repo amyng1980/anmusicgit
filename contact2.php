@@ -13,19 +13,26 @@
 <body>
 <?php include 'navigation.php';
 
-if (isset($_POST['firstname'], $_POST['email'])){
+if (isset($_POST['firstname'])){
     $error = array();
     $firstname = $_POST['firstname'];
-    $email = $_POST['email'];
+    //$email = $_POST['email'];
 
     if(empty($firstname)){
         $error["firstname"] = 'Please enter first name.';
     }
 
 
+
     //if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)) {
         //$error["invalidemail"] = 'Invalid email address.';
     //}
+}
+
+if(!empty($error)){
+    foreach ($error as $err){
+         echo "$err <br />";
+    }
 }
 ?>
 <div id="content">
@@ -34,20 +41,20 @@ if (isset($_POST['firstname'], $_POST['email'])){
  <form action="add.php" method="post">
 
     <div class="formalign">
-    <label>* First Name:</label><input type="text" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
+    <label>* First Name:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
 
     <div class="formalign">
-        <label>Last Name:</label><input type="text" name="lastname">
+        <label>Last Name:</label><input type="text" maxlength="50" name="lastname" >
     </div>
 
     <div class="formalign">
-       <label>Email:</label><input type="text" name="email">
+       <label>Email:</label><input type="text" maxlength="50" name="email">
        
     </div>
 
     <div class="formalign">
-        <label>Comment:</label><textarea name="comment"></textarea>
+        <label>Comment:</label><textarea name="comment" maxlength="500"></textarea>
     </div>
 
 
@@ -61,7 +68,6 @@ if (isset($_POST['firstname'], $_POST['email'])){
 <div class="footer">
 <?php include 'footer.php';?>
 </div>
-
 
 </body>
 </html>
