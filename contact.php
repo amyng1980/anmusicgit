@@ -40,7 +40,7 @@ if(!empty($error)){
 }
 ?>
 <div id="content">
-<h1>Contact Amy:</h1>
+<h1>Contact Amy 2:</h1>
  
  <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method="post">
 
