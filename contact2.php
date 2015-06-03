@@ -35,7 +35,7 @@ if(!empty($error)){
          echo "$err <br />";
     }
 }else{
-        header('Location: /anmusic/add.php');   
+        header('Location: /add.php');   
 }
 }
 ?>
@@ -45,7 +45,7 @@ if(!empty($error)){
  <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method="post">
 
     <div class="formalign">
-    <label>* First Name:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
+    <label>* First Name1:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
 
     <div class="formalign">
