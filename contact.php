@@ -12,38 +12,53 @@
 
 <body>
 <?php include 'navigation.php';
-$firstname = $_POST['firstname'];
-$email = $_POST['email'];
-if(empty($firstname) || empty($email)){
-    $error[] = 'Please enter fields marked with *.';
-}
-    if(strlen($firstname) > 100){
-            $error["firstname"] = 'First name exceeds 100 characters.';  
-    }
+
+if (isset($_POST['firstname'], $_POST['lastname'], $_POST['email'])){
+    $error = array();
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
+
+
+    if(empty($firstname) || empty($lastname) || empty($email)){
+        $error["firstname"] = 'Please fill out the required fields *.';
+    }else{
 
     if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)) {
-                $error["invalidemail"] = 'Invalid email address.';
+        $error["email"] = 'Invalid email address.';
     }
+}
 
+
+if(!empty($error)){
+    foreach ($error as $err){
+         echo "$err <br />";
+    }
+}else{
+        header('Location: /add.php');   
+}
+}
 ?>
 <div id="content">
 <h1>Contact Amy:</h1>
  
- <form action="add.php" method="post">
+ <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method="post">
+
     <div class="formalign">
-    <label>* First Name:</label><input type="text" name="firstname">
+    <label>* First Name:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
 
     <div class="formalign">
-        <label>Last Name:</label><input type="text" name="lastname">
+        <label>* Last Name:</label><input type="text" maxlength="50" name="lastname" value="<?php if(isset($_POST['lastname'])) {echo htmlspecialchars($_POST['lastname']); }?>">
     </div>
 
     <div class="formalign">
-       <label>* Email:</label><input type="text" name="email">
+       <label>* Email:</label><input type="text" maxlength="50" name="email" value="<?php if(isset($_POST['email'])) {echo htmlspecialchars($_POST['email']); }?>">
+       
     </div>
 
     <div class="formalign">
-        <label>Comment:</label><textarea name="comment"></textarea>
+        <label>Comment:</label><textarea name="comment" maxlength="500"></textarea>
     </div>
 
 
@@ -57,7 +72,6 @@ if(empty($firstname) || empty($email)){
 <div class="footer">
 <?php include 'footer.php';?>
 </div>
-
 
 </body>
 </html>
