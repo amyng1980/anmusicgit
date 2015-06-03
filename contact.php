@@ -12,7 +12,7 @@
 
 <body>
 <?php include 'navigation.php';
-if(isset($_SESSION)) session_start();
+//if(isset($_SESSION)) session_start();
 
 if (isset($_POST['firstname'], $_POST['lastname'], $_POST['email'])){
     $error = array();
@@ -20,15 +20,14 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['email'])){
     $lastname = $_POST['lastname'];
     $email = $_POST['email'];
 
-
     if(empty($firstname) || empty($lastname) || empty($email)){
-        $error["firstname"] = 'Please fill out the required fields *.';
+        $error["firstname"] = '<p align=left><font color=red>Please fill out the required fields *.</font></p>';
     }else{
 
-    if (!preg_match("/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,3})$/", $email)) {
-        $error["email"] = 'Invalid email address.';
+        if (!preg_match("/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,3})$/", $email)) {
+            $error["email"] = '<p align=left><font color=red>Invalid email address.</font></p>';
+        }
     }
-}
 
 
 if(!empty($error)){
@@ -57,8 +56,6 @@ $result = pg_query($db, $query);
 pg_close();
 header('Location: /add.php');   
 }
-
-
 }
 ?>
 <div id="content">
@@ -67,7 +64,7 @@ header('Location: /add.php');
  <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method="post">
 
     <div class="formalign">
-    <label>* First Name:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
+        <label>* First Name:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
 
     <div class="formalign">

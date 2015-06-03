@@ -12,12 +12,12 @@
 <div id="navi"><!--container-->
 	<div id="alignLeft"><!--header-->
 		<ul>
-		<li><a href="index.php">*Home  </a> </li>
-		<li><a href="beat.php">*Count the beats </a> </li>
-		<li><a href="keyposition.php">*Keys positions  </a> </li>
-		<li><a href="readnote.php">*Musical notation  </a> </li>
-		<li><a href="quiz.php">*Quizzes </a> </li>
-		<li><a href="contact.php">*Contact us </a> </li>
+		<li><a href="index.php">*Home</a></li>
+		<li><a href="beat.php">*Count the beats</a></li>
+		<li><a href="keyposition.php">*Keys positions</a></li>
+		<li><a href="readnote.php">*Musical notation</a></li>
+		<li><a href="quiz.php">*Quizzes</a></li>
+		<li><a href="contact.php">*Contact us</a></li>
 		</ul>
 	</div>
 	<div id="alignRight">
@@ -28,7 +28,5 @@
 	</div>
 </div>
 
-	
-</div>
 </body>
 <html>
