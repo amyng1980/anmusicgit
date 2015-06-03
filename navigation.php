@@ -17,7 +17,7 @@
 		<li><a href="keyposition.php">*Keys positions  </a> </li>
 		<li><a href="readnote.php">*Musical notation  </a> </li>
 		<li><a href="quiz.php">*Quizzes </a> </li>
-		<li><a href="contact2.php">*Contact us </a> </li>
+		<li><a href="contact.php">*Contact us </a> </li>
 		</ul>
 	</div>
 	<div id="alignRight">
