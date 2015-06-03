@@ -28,14 +28,15 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['email'])){
         $error["email"] = 'Invalid email address.';
     }
 }
-}
+
 
 if(!empty($error)){
     foreach ($error as $err){
          echo "$err <br />";
     }
 }else{
-    header('Location: add.php?');
+        header('Location: /add.php');   
+}
 }
 ?>
 <div id="content">
