@@ -35,7 +35,7 @@ if(!empty($error)){
          echo "$err <br />";
     }
 }else{
-        header('Location: /add.php');   
+        header('Location: /anmusic/add.php');   
 }
 }
 ?>
