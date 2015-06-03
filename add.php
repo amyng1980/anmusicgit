@@ -18,7 +18,7 @@ $result = pg_query($db, $query);
     echo "Error with query: " . $errormessage; 
     exit(); 
   } 
-}
+
 printf ("These values were inserted into the database:");
 
 printf ("First name: %s <br />", $firstname); 
@@ -29,6 +29,7 @@ printf ("Comment: %s", $comment);
 //var_dump($result);
 pg_close();
 //$result->closeCursor();
+}
 ?>
 Click <a href="index.php">here</a> to go back to the home page.</p>
 </body>

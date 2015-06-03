@@ -12,6 +12,7 @@
 
 <body>
 <?php include 'navigation.php';
+if(isset($_SESSION)) session_start();
 
 if (isset($_POST['firstname'], $_POST['lastname'], $_POST['email'])){
     $error = array();
@@ -24,7 +25,7 @@ if (isset($_POST['firstname'], $_POST['lastname'], $_POST['email'])){
         $error["firstname"] = 'Please fill out the required fields *.';
     }else{
 
-    if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/", $email)) {
+    if (!preg_match("/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,3})$/", $email)) {
         $error["email"] = 'Invalid email address.';
     }
 }
