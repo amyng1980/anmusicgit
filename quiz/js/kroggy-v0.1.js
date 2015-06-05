@@ -94,7 +94,8 @@
         if (tempCheck.length == 0) {
             notice.fadeIn(300);return false;
         }
-
+        
+        notice.hide();
         var tempArr = $('input[type=radio]:checked');
             for (var i = 0, ii = tempArr.length; i < ii; i++) {
             userAnswers.push(tempArr[i].getAttribute('data-key'));
