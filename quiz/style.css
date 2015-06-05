@@ -79,6 +79,23 @@ h2.qTitle {
    	-moz-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
 }
 
+
+.questionContainer .btnStart {
+  height: 30px; cursor: pointer; padding: 5px 10px;
+  width: 100px;
+    font-size: 26px;
+    padding: 5px 10px;
+    color: #4c4c4c;
+    border-radius: 4px;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);*/
+    background: #6fb2e5;
+    box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+    -o-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+    -webkit-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+    -moz-box-shadow: 0 1px 5px #0061aa, inset 0 10px 20px #b6f9ff;
+}
+
+
 .questionContainer .prev, .questionContainer .next {
 	height: 19px; cursor: pointer; padding: 5px 10px;
    	font-size: 16px;

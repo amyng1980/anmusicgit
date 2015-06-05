@@ -14,13 +14,8 @@
 <div id="content">
     <h1>Lesson 2 Outlines:</h1>
     <p>
-        * Memorize the following terminologies and the values of the notes. </br>
-        1. Whole Note and Whole Rest</br>
-        2. Half Note and Half Rest</br>
-        3. Quarter Note and Quarter Rest</br>
-	    4. Bar Line, Measure, and Double Bar</br>
-        5. Simple Time Signature</br>
-        6. There are 2 homeworks: i) Note values ii) Time Signature </br></br>
+        1. Note values with one homework.</br>
+        2. Time Signature.</br></br>
        
   	<h2>Note Values:</h2>      
         <div class="noteValue">
@@ -61,7 +56,7 @@
 <div id="barlineMeasure">
     <h2>Barline & Measure:</h2>
         <ul>
-		    <li>* Barline is a vertical line that divides the musical notes into "measure".</li></br>
+		    <li>* Barline is a vertical line that divides the music into "measure".</li></br>
             <li>* Spaces between the barlines are called "measures". In the example below, we have 4 measures.</li></br>
             <li>* The double barline indicates the end of the music.</li></br>
         </ul>
@@ -79,9 +74,11 @@
         <img src="resource_music/24.jpg" class="ri"></br>
 </div>
 
+<!--
 <div id="downloadHw">
         <a href="resource_music/Lesson2TimeSignatureHW.png" download>Homework 2: Download the time signature homework here</a></br>
-    </div></br></br>
+</div>-->
+</br></br>
 
 
 <p>
