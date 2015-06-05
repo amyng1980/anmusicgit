@@ -14,8 +14,8 @@
 <div id="content">
     <h1>Lesson 2 Outlines:</h1>
     <p>
-        1. Note values with one homework.</br>
-        2. Time Signature.</br></br>
+        * Note values with one homework.</br>
+        * Time Signature.</br></br>
        
   	<h2>Note Values:</h2>      
         <div class="noteValue">
