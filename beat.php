@@ -50,8 +50,9 @@
     
     <div id="downloadHw">
         <a href="resource_music/Lesson2NoteValueHW.png" download>Homework 1: Download the note value homework here</a></br>
-    </div></br></br>
+    </div></br>
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RRuQXil-IkI" frameborder="0" allowfullscreen></iframe></br>
 
 <div id="barlineMeasure">
     <h2>Barline & Measure:</h2>
