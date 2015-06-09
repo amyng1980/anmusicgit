@@ -18,7 +18,7 @@
 * Start reading musical notes. </br></p>
 	<div class="clef">
 		<h1>Clefs:</h1>        	
-			<img src="resource_music/clef.jpg" class="ri"> 
+			<img src="resource_music/clef.jpg"> 
 	</div>
 
 	<div id="downloadHw">

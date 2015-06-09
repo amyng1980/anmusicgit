@@ -88,7 +88,12 @@
     }
 
     #content img{
-        padding-left: 40px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+
+    #content img.ri{
+        padding-left: 0px;
         padding-bottom: 30px;
     }
 

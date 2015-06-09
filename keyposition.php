@@ -6,10 +6,14 @@
     <link rel="stylesheet" type="text/css" href="android.css" media="only screen and (max-width: 480px)" />
     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="small_l.css">
     <link rel="stylesheet" type="text/css" href="music.css" media="only screen and (min-width: 481px)" />
+    <link rel="stylesheet" type="text/css" href="pianomaster/piano.css" />
+    
 </head>
 
 <body>
+
 <?php include 'navigation.php';?>
+
 <div id="content">
 <h1>Lesson 3 Outlines:</h1>
 <p>
@@ -18,7 +22,12 @@
 
 <div id="keyboardChart">
         <h2>Keys Positions Chart:</h2>
-        <img src="resource_music/pianoKeys.jpg" class="ri"></br>
+        <!--<img src="resource_music/pianoKeys.jpg" float="left" class="ri"></br>-->
+   			<div id="piano">               
+            </div>
+		<script src="pianomaster/jquery-1.7.1.min.js"></script>
+    	<script src="pianomaster/audio.js"></script>
+    	<script src="pianomaster/piano.js"></script>
 	
 
         <h2>Let's Play Music Letters On The Piano</h2>
@@ -66,5 +75,6 @@ Click <a href="readnote.php">here</a> to start lesson 4.</p>
 <div class="footer">
 <?php include 'footer.php';?>
 </div>
+
 </body>
 </html>

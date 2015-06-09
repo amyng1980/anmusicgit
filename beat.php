@@ -62,7 +62,7 @@
             <li>* Spaces between the barlines are called "measures". In the example below, we have 4 measures.</li></br>
             <li>* The double barline indicates the end of the music.</li></br>
         </ul>
-        <img src="resource_music/barline.png" class="ri"></br>
+        <img src="resource_music/barline.png"></br>
 </div>
 
 <div id="simpleTimeSignature">
@@ -73,7 +73,7 @@
 		    <li>* At this point, just focus on the number on the top. Don't worry about the number at the bottom.</li></br>
         </ul>
         <br/>
-        <img src="resource_music/24.jpg" class="ri"></br>
+        <img src="resource_music/24.jpg"></br>
 </div>
 
 <!--
