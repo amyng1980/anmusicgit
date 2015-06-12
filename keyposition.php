@@ -65,7 +65,7 @@
         
 		</div>-->
 
-        If you don't have a keyboard or piano, you may try this <a href="mypiano/index.html">mini piano</a> and click on the keyboard.
+        If you don't have a keyboard or piano, you may try this <a href="mypiano/index.html" target="_blank">mini piano</a> and click on the keyboard.
         <h2>Let's Play Music Letters On The Piano</h2>
 		<div id="firstMusic">
 		<h3>** Mary Had A Little Lamb **</h3></br>
