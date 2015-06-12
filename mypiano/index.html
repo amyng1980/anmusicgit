@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>HTML5 JavaScript Piano - with Data URIs</title>
+    <link rel="stylesheet" type="text/css" href="piano.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").toggle();
+            });
+        });
+    </script>
+</head>
+    <body>
+        <div id="content">
+            <div id="content-inner">
+                <div id="piano">
+                    <script src="jquery-1.7.1.min.js"></script>
+        <script src="audio.js"></script>
+        <script src="piano.js"></script>
+                    <h1>My Little Piano</h1>    
+                    
+                    <p id="myLetter"></p>
+                    <button>Show or hide the names of the keys</button>  
+                    <script>
+                    var letters=["C", "D", "E", "F", "G", "A", "B", "C", "D", "E", "F", "G", "A", "B", "C"];
+                    var text = "";
+                    var i;
+
+                    text += "&nbsp;&nbsp;&#8194;&#8194;" + letters[0]
+                    text += "&nbsp;&nbsp;&#8194;&#8194;&#8194;&#8194;" + letters[1]
+
+                    for(i= 2; i < 7; i++){
+
+                        text += "&nbsp;&nbsp;&#8194;&#8194;&#8194;&#8194;" + letters[i];
+                    }
+                    text += "&nbsp;&nbsp;&#8194;&#8194;&#8194;&#8194;&#8194;" + letters[7];
+
+                    for(i= 8; i < 15; i++){
+
+                        text += "&nbsp;&nbsp;&#8194;&#8194;&#8194;&#8194;" + letters[i];
+                    }
+                    document.getElementById("myLetter").innerHTML = text;
+                    </script>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

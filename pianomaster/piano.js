@@ -294,6 +294,11 @@
                 i = 0,
                 color = '#' + choice('f33 33f 3f3 ff3 f3f 3ff'.split(' '));
 
+                /*
+                (function showLetter(){
+
+                });*/
+
             // startY -> endY in steps
             // each step is yPerStep = (endY - startY) / steps long
             // each step covers iPerStep = len / steps data points

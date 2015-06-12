@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
+});
+</script>
+</head>
+<body>
+<p id="demo"></p>
+<button>Toggle between hide() and show()</button>
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford", "a"];
+var text = "";
+var i;
+for (i = 0; i < cars.length; i++) {
+    text += cars[i] + " ";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+                    
+
+</body>
+</html>
