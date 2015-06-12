@@ -31,11 +31,11 @@
 
 <div id="keyboardChart">
         <h2>Keys Positions Chart:</h2>
-        <img src="resource_music/pianoKeys.jpg" float="left" class="ri"></br>
-        <!--<div id="piano"> 
-    	<script src="pianomaster/jquery-1.7.1.min.js"></script>
-    	<script src="pianomaster/audio.js"></script>
-    	<script src="pianomaster/piano.js"></script>
+        <!--<img src="resource_music/pianoKeys.jpg" float="left" class="ri"></br>-->
+        <div id="piano"> 
+    	<script src="mypiano/jquery-1.7.1.min.js"></script>
+    	<script src="mypiano/audio.js"></script>
+    	<script src="mypiano/piano.js"></script>
 
 		<p id="myLetter"></p>
                     <button>Show or hide the names of the keys</button>  
@@ -63,9 +63,10 @@
                     </script>
      
         
-		</div>-->
+		</div>
 
-        If you don't have a keyboard or piano, you may try this <a href="mypiano/index.html" target="_blank">mini piano</a> and click on the keyboard.
+        <!--If you don't have a keyboard or piano, you may try this <a href="mypiano/index.html" target="_blank">mini piano</a> and click on the keyboard.-->
+        <p></p>
         <h2>Let's Play Music Letters On The Piano</h2>
 		<div id="firstMusic">
 		<h3>** Mary Had A Little Lamb **</h3></br>
