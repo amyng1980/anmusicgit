@@ -61,18 +61,23 @@ header('Location: /add.php');
 <div id="content">
 <h1>Contact Amy:</h1>
  
- <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method="post">
+ <form action="<?php echo htmlentities( $_SERVER['PHP_SELF'] );?>" method=post oninput="email2.setCustomValidity(email2.value != email.value ? 'Emails do not match.' : '')">
 
     <div class="formalign">
-        <label>* First Name:</label><input type="text" maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
+        <label>First Name:</label><input type=text required maxlength="50" name="firstname" value="<?php if(isset($_POST['firstname'])) {echo htmlspecialchars($_POST['firstname']); }?>" />
     </div>
 
     <div class="formalign">
-        <label>* Last Name:</label><input type="text" maxlength="50" name="lastname" value="<?php if(isset($_POST['lastname'])) {echo htmlspecialchars($_POST['lastname']); }?>">
+        <label>Last Name:</label><input type=text required maxlength="50" name="lastname" value="<?php if(isset($_POST['lastname'])) {echo htmlspecialchars($_POST['lastname']); }?>">
     </div>
 
     <div class="formalign">
-       <label>* Email:</label><input type="text" maxlength="50" name="email" value="<?php if(isset($_POST['email'])) {echo htmlspecialchars($_POST['email']); }?>">
+       <label>Email:</label><input type=email required maxlength="50" name="email" value="<?php if(isset($_POST['email'])) {echo htmlspecialchars($_POST['email']); }?>">
+       
+    </div>
+
+     <div class="formalign">
+       <label>Confirm Email:</label><input type=email required maxlength="50" name="email2" value="<?php if(isset($_POST['email'])) {echo htmlspecialchars($_POST['email']); }?>">
        
     </div>
 

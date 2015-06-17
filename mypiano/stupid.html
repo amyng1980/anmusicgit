@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<script>
+//http://www.bit-101.com/blog/?p=3875
+//Step 1: create audio context
+var context = new window.webkitAudioContext();
+
+//an oscillator node 1
+var osc = context.createOscillator();
+osc.frequency.value = 440;
+osc.connect(context.destination);
+osc.start(0);
+ 
+//a gain node has a single input & single output
+// var gain = context.createGain();
+// gain.gain.value = 100;
+// gain.connect(osc.frequency);
+ 
+//an oscillator node 2
+// var osc2 = context.createOscillator();
+// osc2.frequency.value = 1;
+// osc2.connect(gain);
+// osc2.start(0);
+</script>
+</head>
+<body>
+	<!-- 
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+	Audio nodes are linked via their inputs and outputs, forming a chain that starts with one or more sources, goes through one or more nodes, then ends up at a destination-->
+</body>
+</html>

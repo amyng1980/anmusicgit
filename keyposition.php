@@ -15,8 +15,6 @@
             });
         });
     </script>
-
-  
 </head>
 
 <body>
@@ -60,9 +58,7 @@
                     }
 
                     document.getElementById("myLetter").innerHTML = text;
-                    </script>
-     
-        
+                    </script>  
 		</div>
 
         <!--If you don't have a keyboard or piano, you may try this <a href="mypiano/index.html" target="_blank">mini piano</a> and click on the keyboard.-->
@@ -99,11 +95,7 @@
 		<div id="downloadHw">
         	<a href="resource_music/littleDyno_BothHands.jpg" download>Download Music Sheet: Dyno My Pet Dinosaur-Both Hands</a>
 		</div>
-
-
-		
 </div>
-
 
 <div></br></br></br></div>
 
